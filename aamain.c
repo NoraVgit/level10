@@ -4,7 +4,7 @@
 
 #include "fileutil.h"
 
-
+//Nora Van leer
 int main(int argc, char *argv[])
 {
 	if (argc < 1)
@@ -14,8 +14,9 @@ int main(int argc, char *argv[])
 	}
 	
 	int lineCount;
-	char **lines = loadFileAA(argv[1], &lineCount);
 	
+	char **lines = loadFileAA(argv[1], &lineCount);
+
 	printf("File loaded.\n");
 	
 	while(1)
